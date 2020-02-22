@@ -1,0 +1,44 @@
+p{
+  color : #ffffff;
+}
+h1{
+  color: #fff;
+}
+.headin{
+  border: double;
+}
+body {
+ background-image: url("top-view-of-people-at-the-meeting-3184287.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    cursor: url('https://media.discordapp.net/attachments/670304380582494228/680453021851058178/aim.png'), pointer;
+    background: url('https://media.discordapp.net/attachments/670304380582494228/680453062930071687/bg.jpg?width=815&height=459');
+    background-size: cover;
+    background-position: center;
+}
+
+span{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    background: url('https://media.discordapp.net/attachments/670304380582494228/680453038397587456/hole.png');
+    pointer-events: none;
+    transform: translate(28px,28px);
+}
